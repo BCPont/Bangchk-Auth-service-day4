@@ -36,7 +36,7 @@ public class AuthController : ControllerBase
     [HttpGet]
     public IActionResult Home()
     {
-        return Ok(new { message = "Hello Auth Service 3.0.0" });
+        return Ok(new { message = "Hello Auth Service 3.0.1" });
     }
 
     // localhost:port/api/v1/Auth/Register
